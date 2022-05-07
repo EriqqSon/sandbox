@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Web.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("AppDbContextConnection");
+var connectionString = builder.Configuration.GetConnectionString("SandboxConnection");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
