@@ -34,7 +34,8 @@ var LikeButton = function (_React$Component) {
                 { 'class': 'btn btn-primary', onClick: function onClick() {
                         return _this2.setState({ liked: true });
                     } },
-                'Like'
+                React.createElement('i', { 'class': 'bi bi-hand-thumbs-up-fill' }),
+                ' Like'
             );
         }
     }]);

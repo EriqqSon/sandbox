@@ -13,7 +13,7 @@ class LikeButton extends React.Component {
 
         return (
             <button class="btn btn-primary" onClick={() => this.setState({ liked: true })}>
-                Like
+                <i class="bi bi-hand-thumbs-up-fill"></i> Like
             </button>
         );
     }
